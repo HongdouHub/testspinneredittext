@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpinnerEditText">
+        <attr name="spn_text_color" format="color" />
+        <attr name="spn_min_height" format="dimension" />
+        <attr name="spn_max_height" format="dimension" />
+        <attr name="right_image_icon" format="reference" />
+        <attr name="right_image_width" format="dimension" />
+        <attr name="right_image_height" format="dimension" />
+        <attr name="auto_check_status" format="boolean" /> <!-- 自动判断如果内容为空，用红色框 -->
+        <attr name="image_clickable_width" format="dimension" />
+        <attr name="show_direction_down" format="boolean" />
+    </declare-styleable>
+</resources>
